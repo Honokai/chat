@@ -1,0 +1,24 @@
+{
+  "usuarios" : [
+    { "nome":"emerson",
+      "senha":"1234",
+      "papel":"professor",
+      "grupos":"a,b,d"
+    },
+    { "nome":"erick",
+      "senha":"1234",
+      "papel":"aluno",
+      "grupos":"a"
+    },
+    { "nome":"tirano",
+      "senha":"1234",
+      "papel":"aluno",
+      "grupos":"b,d"
+    },
+    { "nome":"leon",
+      "senha":"1234",
+      "papel":"aluno",
+      "grupos":"a"
+    }
+  ]
+}
