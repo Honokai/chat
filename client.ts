@@ -26,7 +26,7 @@ socket.on('connect', () => {
 })
 
 socket.on('message', (grupo, conteudo) => {
-  if (usuario.grupos.indexOf(grupo) !== -1) {
+  if (grupo == usuario.grupos) {
     console.log(hora.toISOString().replace('T',' ').slice(0,19) + " " + chalk.green(`${conteudo}`))  
   } 
 })
